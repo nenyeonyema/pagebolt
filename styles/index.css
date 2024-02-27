@@ -130,13 +130,63 @@ div.parent2 {
 }
 
 div.parent3 {
-    background-color: #FFFDFA;
+    background-color: #FFFDFA; /*#FFFEFC */
     margin-top: -20px;
     width: 100%;
     height: 100%;
 }
-.main-one {
-    
+
+div.main-one {
+    background-color: #FFFDFA;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    border: 1px solid green;
+}
+div.one {
+    width: 50%;
+    border: 1px solid black;
+}
+div.two {
+    border: 2px solid black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-one {
+    margin-top: -30px;
+    position: absolute;
+    left: 50%;
+    transform: scale(0.60);
+    z-index: 1;
+}
+.img-two {
+    position: absolute;
+    top: auto;
+    left: 50%;
+    margin-left: 50px;
+    transform: scale(0.50);
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.img-three {
+    transform: scale(0.5);
+    position: absolute;
+    right: 20%;
+    margin-top: -200px;
+    z-index: 3;
+}
+.img-four {
+    transform: scale(0.48);
+    position: absolute;
+    top: 57%;
+    margin-left: 45px;
+    border-radius: 50px;
+    z-index: 3; 
 }
 @media  only screen and (min-width: 1024px) {
     ul.lists, div.clicks {
