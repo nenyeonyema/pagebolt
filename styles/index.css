@@ -1,0 +1,277 @@
+body {
+    background-color: #F0F8FF;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: 90px;
+}
+img.logo {
+    margin-left: -40px;
+    transform: scale(0.33);
+}
+ul, div.clicks {
+    display: none;
+}
+div.equalsign {
+    display: flex;
+    margin-right: 40px;
+    transform: scale(1.30);
+}
+
+div.para {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#DFF1FF;
+    border-radius: 35px;
+    width: 360px;
+    height: 30px;
+    color: rgb(65, 190, 255);
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+span.p-span1 {
+    background-color: #06A0F1;
+    text-align: center;
+    border-radius: 35px;
+    border-style: none;
+    font-family: "Poppins";
+    font-size: 13px;
+    margin-left: -12px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    padding: 4px 15px;
+    color: #DFF1FF;
+}
+span.p-span2 {
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 2px;
+    font-family: "Poppins";
+}
+div.parent1 {
+    background-color: #F3F9FF;
+    background-image: url("/images/Mobile-App-Hero-BG.webp");
+    width: 100%;
+    height: 300px;
+    display: block;
+    background-size: cover;
+    background-position: bottom;
+}
+.parent1-child {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+div.parent1-child {
+    margin-top: -30px;
+}
+h1.p-para1 {
+    font-family: "Poppins";
+    font-size: 36px;
+    color: rgb(16, 42, 67);
+    font-weight: bolder;
+    font-stretch: 100%;
+    line-height: 1.0;
+    letter-spacing: 0.85;
+    word-spacing: 0.8;
+}
+h1 span.p-span3 {
+    color: rgb(65, 190, 255);
+    border-bottom: #DFF1FF;
+}
+p.p-para2 {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(72, 101, 129);
+    margin-top: -10px;
+}
+div.image-con1 {
+    margin-top: 30px;
+}
+img.google {
+    margin: auto;
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    margin: 10px;
+}
+div.parent2 {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    text-align: center; 
+    background-color: #F9FCFF;
+}
+
+.amoeba-img {
+    position: absolute;
+    margin-top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.55);
+    z-index: 1;
+}
+
+.calls {
+    transform: translate(-50%, -50%) scale(0.6);
+    position: absolute;
+    z-index: 2; 
+    margin-top: 150px;
+}
+
+div.parent3 {
+    background-color: #FFFDFA;
+    margin-top: -20px;
+    width: 100%;
+    height: 100%;
+}
+.main-one {
+    
+}
+@media  only screen and (min-width: 1024px) {
+    ul.lists, div.clicks {
+        display: flex;
+        margin-right: 100px;
+    }
+    div.equalsign {
+        display: none;
+    }
+    ul {
+        padding: 10px;
+        cursor: pointer;
+    }
+    li {
+        margin-right: 30px;
+        list-style: none;
+    }
+    a {
+        color: #364C61; /* color for the big fonts rgb(16, 42, 67) #44586C #364C61 */
+        font-family: 'Poppins';
+        font-size: 1.0em; /*16px */
+        font-weight: 500;
+        font-stretch: 100%;
+        text-decoration: none;
+    }
+    .general {
+        transition: color 0.15s ease-in-out;
+    }
+    .general:hover {
+        color: rgb(65, 190, 255) ; /* rgb(18, 167, 253) #41BEFF */
+    }
+    button.login {
+        margin-right: 25px;
+        border: none;
+        background-color: #F0F8FF;
+        font-family: "Poppins";
+        font-size: 1.0em;
+        font-weight: 500;
+        font-stretch: 100%;
+        cursor: pointer;
+    }
+    button.app {
+        background-color: rgb(255, 255, 255);
+        color: #364C61;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 700;
+        border-style: none;
+        width: 140px;
+        height: 40px;
+        border-radius: 35px;
+        cursor: pointer;
+        transition: background-color 0.15s, color 0.15;
+    }
+    button.app:hover {
+        background-color:  rgb(6, 160, 241); /* #06A0F1 */
+        color: rgb(255, 255, 255);
+    }
+    div.parent1 {
+        background-color: #F3F9FF;
+        background-image: url("/images/Mobile-App-Hero-BG.webp");
+        width: 100%;
+        height: 500px;
+        display: block;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .parent1-child {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    div.parent1-child {
+        margin-top: -40px;
+    }
+    h1.p-para1 {
+        font-family: "Poppins";
+        font-size: 72px;
+        color: rgb(16, 42, 67);
+        font-weight: bolder;
+        font-stretch: 100%;
+        line-height: 1.0;
+        letter-spacing: 0.85;
+        word-spacing: 0.8;
+    }
+    h1 span.p-span3 {
+        color: rgb(65, 190, 255);
+        border-bottom: #DFF1FF;
+    }
+    p.p-para2 {
+        font-family: "Poppins";
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(72, 101, 129);
+        margin-top: -25px;
+    }
+    div.image-con1 {
+        margin-top: 30px;
+    }
+    img.google {
+        margin: auto;
+        height: 50px;
+        width: 150px;
+        border-radius: 6px;
+        margin: 10px;
+    }
+
+    div.parent2 {
+        position: relative;
+        text-align: center; /* Center content horizontally */
+        width: 100%;
+        height: 500px;
+        background-color: #F9FCFF;
+    }
+
+    .amoeba-img {
+        position: absolute;
+        margin-top: 150px;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.8); 
+        z-index: 1; 
+    }
+
+    .calls {
+        transform: translate(-50%, -50%) scale(0.9);
+        position: absolute;
+        z-index: 2; 
+        margin-top: 150px;
+    }
+        /* display: block;
+        margin: auto; /* Center "calls" image horizontally 
+        position: relative;
+        z-index: 2; 
+        margin-top: -5%; 
+        border: 1px solid green;
+    } */
+}
