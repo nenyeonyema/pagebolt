@@ -139,56 +139,98 @@ div.parent3 {
 div.main-one {
     background-color: #FFFDFA;
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 600px;
     position: relative;
     text-align: center;
-    border: 1px solid green;
 }
 div.one {
-    width: 50%;
-    border: 1px solid black;
+    width: 100%;
+    height: 600px;
 }
 div.two {
-    border: 2px solid black;
-    width: 50%;
+    background-color: rgb(255, 255, 254);
+    width: 100%;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .img-one {
-    margin-top: -30px;
+    /* margin-top: -30px; */
     position: absolute;
-    left: 50%;
-    transform: scale(0.60);
+    top: 10%;
+    margin-left: 80px;
+    transform: scale(0.55);
     z-index: 1;
 }
 .img-two {
     position: absolute;
-    top: auto;
-    left: 50%;
-    margin-left: 50px;
-    transform: scale(0.50);
+    margin-top: 20px;
+    margin-left: 120px;
+    transform: scale(0.47);
     border-radius: 25px;
     z-index: 2;
 }
 
 .img-three {
-    transform: scale(0.5);
+    transform: scale(0.45);
     position: absolute;
-    right: 20%;
-    margin-top: -200px;
+    right: 30%;
+    margin-top: -170px;
     z-index: 3;
 }
 .img-four {
     transform: scale(0.48);
     position: absolute;
-    top: 57%;
-    margin-left: 45px;
+    top: 75%;
+    margin-left: 90px;
     border-radius: 50px;
     z-index: 3; 
 }
-@media  only screen and (min-width: 1024px) {
+.noshow {
+    display: none;
+}
+.one {
+    padding: 0 40px;
+}
+.h-one {
+    font-family: "Poppins";
+    font-size: 28px;
+    color: rgb(16, 42, 67);
+    justify-content: left;
+    text-align: left;
+    font-weight: 900;
+}
+.padd {
+    font-family: "Poppins";
+    justify-content: left;
+    text-align: left;
+    background-color: rgb(6, 160, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 145px;
+    border-radius: 35px;
+    color: white;
+    padding: 5px;
+}
+.goodbye {
+    color: rgb(72, 101, 129);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins";
+    justify-content:flex-start;
+    text-align: left;
+    padding-right: 20px;
+}
+.revolt {
+    color: rgb(65, 190, 255) ;
+
+}
+@media  only screen and (min-width: 768px) {
     ul.lists, div.clicks {
         display: flex;
         margin-right: 100px;
@@ -317,11 +359,107 @@ div.two {
         z-index: 2; 
         margin-top: 150px;
     }
-        /* display: block;
-        margin: auto; /* Center "calls" image horizontally 
+    div.parent3 {
+    background-color: #FFFDFA; /*#FFFEFC */
+    margin-top: -20px;
+    width: 100%;
+    height: 100%;
+    }
+
+    div.main-one {
+        background-color: #FFFDFA;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 600px;
         position: relative;
-        z-index: 2; 
-        margin-top: -5%; 
-        border: 1px solid green;
-    } */
+        text-align: center;
+    }
+    div.one {
+        width: 50%;
+        height: 100%;
+    }
+    div.two {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        background-color: #FFFDFA;
+    }
+    .img-one {
+        position: relative;
+        margin-left: 70px;
+        margin-top: -120px;
+        margin-bottom: 50px;
+        transform: scale(0.60);
+        z-index: 1;
+    }
+    .img-two {
+        position: absolute;
+        margin-top: -35px;
+        left: 50%;
+        margin-left: 50px;
+        transform: scale(0.49);
+        border-radius: 25px;
+        z-index: 2;
+    }
+
+    .img-three {
+        transform: scale(0.5);
+        position: absolute;
+        right: 20%;
+        margin-bottom: 50px;
+        z-index: 3;
+    }
+    .img-four {
+        transform: scale(0.48);
+        position: absolute;
+        top: 55%;
+        margin-left: 45px;
+        border-radius: 60px;
+        z-index: 3; 
+    }
+    .noshow {
+        display: flex;
+    }
+    .one {
+        padding-right: 40px;
+        padding-left: 80px;
+    }
+    .h-one {
+        font-family: "Poppins";
+        font-size: 56px;
+        color: rgb(16, 42, 67);
+        justify-content: left;
+        line-height: 1.2;
+        text-align: left;
+        font-weight: 900;
+    }
+    .padd {
+        font-family: "Poppins";
+        justify-content: left;
+        text-align: left;
+        background-color: rgb(6, 160, 241);
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 145px;
+        border-radius: 35px;
+        color: white;
+        padding: 5px;
+    }
+    .goodbye {
+        color: rgb(72, 101, 129);
+        font-size: 16px;
+        font-weight: 400;
+        font-family: "Poppins";
+        justify-content:flex-start;
+        text-align: left;
+        padding-right: 20px;
+    }
+    .revolt {
+        color: rgb(65, 190, 255) ;
+    
+    }
 }
